@@ -9,6 +9,6 @@ fs.readFile('./kicks_kisses_data.json', 'utf8', (err, kicks_kisses) => {
     console.log('Input:',input)
     let k = 3;
     console.log('k value:',k);
-    result = kNN.classify([18, 90], data, 3);
+    result = kNN.classify(input, data, k);
     console.log('Result:',result);
 })
