@@ -1,0 +1,14 @@
+{
+  "name": "esa5-knn",
+  "version": "1.0.0",
+  "description": "Simple kNN implementation in JavaScript to understand the algorithm!",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Sebastian Große",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
